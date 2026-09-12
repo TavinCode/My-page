@@ -27,6 +27,7 @@ body {
 
 .profile {
    margin-top: 100px;
+   margin-bottom: 56px;
 }
 
 .profile__header img {
@@ -64,4 +65,33 @@ body {
 
 a.destaque {
    color: blue;
+}
+
+.links ul {
+   list-style: none;
+}
+
+.links a {
+   display: flex;
+   height: 56px;
+   border: 1px solid #444;
+   border-radius: 35px;
+   text-decoration: none;
+   padding: 0 24px;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 16px;
+   color: #051b93;
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.links a:hover {
+   border: 1px solid #fff;
+   color: #fff;
+   background: #8d5fe9;
+}
+.links__item {
+   width: 100%;
+   text-align: center;
 }
