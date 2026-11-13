@@ -1,5 +1,6 @@
-/* Iniciando meu primeiro arquivo CSS */
+/* Estilos gerais da página de perfil. */
 
+/* Define a aparência base usada em toda a página. */
 body {
    color: #444;
    background: #fff;
@@ -7,6 +8,7 @@ body {
    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Centraliza o conteúdo e limita a largura do perfil. */
 .container {
    border: 1px solid #000;
    max-width: 650px;
@@ -15,10 +17,12 @@ body {
    padding: 16px;
 }
 
+/* Classes utilitárias para destacar textos. */
 .destaque {
    color: red;
 }
 
+/* Espaçamento da seção de apresentação do perfil. */
 .profile {
    margin-top: 100px;
    margin-bottom: 56px;
@@ -47,6 +51,7 @@ body {
    text-align: center;
 }
 
+/* Estiliza áreas de destaque dentro da descrição. */
 .profile__about div {
    background-color: #8d5fe9;
    padding: 16px;
@@ -61,6 +66,7 @@ a.destaque {
    color: blue;
 }
 
+/* Remove os marcadores e estiliza os links como botões. */
 .links ul {
    list-style: none;
 }
@@ -80,6 +86,7 @@ a.destaque {
    font-size: 18px;
 }
 
+/* Altera as cores do botão quando o ponteiro passa sobre ele. */
 .links a:hover {
    border: 1px solid #fff;
    color: #fff;
@@ -90,6 +97,7 @@ a.destaque {
    text-align: center;
 }
 
+/* Aumenta os textos em telas menores para facilitar a leitura. */
 @media screen and (max-width: 720px) {
    .profile__about {
       font-size: 20px;
